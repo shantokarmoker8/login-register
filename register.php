@@ -16,7 +16,8 @@
         <form action="" method="post">
             <h2>Registration</h2>
             <p class="msg"></p>
-            <div class="form-group">
+           <div class="d-grid gap-2">
+             <div class="form-group">
                 <input type="text" name="name" id="" placeholder="Enter Your Name" class="form-control" require>
             </div>
             <div class="form-group">
@@ -36,6 +37,7 @@
             </div>
             <button name="submit" class="btn btn-primary">Register Now</button>
             <p>Already have an Account? <a href="login.php">Login Now</a></p>
+           </div>
         </form>
     </div>
 </body>

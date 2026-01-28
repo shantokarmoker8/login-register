@@ -17,7 +17,8 @@
             <h2>Login</h2>
             <p class="msg"></p>
             
-            <div class="form-group">
+            <div class="d-grid gap-2">
+                <div class="form-group">
                 <input type="email" name="email" id="" placeholder="Enter Your Email" class="form-control" require>
             </div>
         
@@ -25,8 +26,12 @@
                 <input type="password" name="password" id="" placeholder="Enter Your Password" class="form-control" require>
             </div>
            
-            <button name="submit" class="btn btn-primary">Login Now</button>
+                 <button name="submit" class="btn btn-primary ">Login Now</button>
             <p>Don't have an Account? <a href="register.php">Registration Now</a></p>
+           </div>
+            </div>
+           
+           
         </form>
     </div>
 </body>
