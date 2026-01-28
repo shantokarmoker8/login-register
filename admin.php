@@ -15,8 +15,8 @@
 </head>
 <body>
     <div class="user-page">
-        <h2>Welcome to User page</h2>
-        <p>User : <span><?php echo $_SESSION['user']; ?></span></p>
+        <h2>Welcome to Admin page</h2>
+        <p>Admin : <span><?php echo $_SESSION['admin'];?></span></p>
         <a href="logout.php"><button class="btn font-weight-bold">Logout</button></a>
     </div>
 </body>
