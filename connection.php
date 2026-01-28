@@ -9,8 +9,6 @@
     if(!($con)){
         echo "Connection faild";
     }
-    else{
-        echo "connection successfull";
-    }
+    
 
 ?>
